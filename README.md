@@ -1,2 +1,2 @@
-# my_paddle2_0_notebook
+# my_paddle2_notebook
 paddle2.0 notebook
