@@ -150,3 +150,6 @@ lenet = LeNet()
 
 params_info = paddle.summary(lenet, (1, 1, 28, 28))
 print(params_info)
+
+nn.MaxPool2D(2,)
+

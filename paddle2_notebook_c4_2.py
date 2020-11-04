@@ -37,7 +37,7 @@ paddle.save(layer_dict,'net.pdparams')
 paddle.save(opt_dict,'net.pdopt')
 
 layer_state_dict=paddle.load('net.pdparams')
-opt_state_dict=paddle.load('opt.pdparams')
+opt_state_dict=paddle.load('opt.pdopt')
 layer=certain_net()
 layer.set_state_dict(layer_state_dict)
 opt.set_state_dict(opt_state_dict)
